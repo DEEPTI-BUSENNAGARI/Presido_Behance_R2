@@ -1,0 +1,136 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Pixelify</title>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <nav class="site-nav">
+                <div class="logo">Pixelify</div>
+            </nav>
+        </div>
+        <div class="header-right">
+            <nav class="user-nav">
+                <a href="#">Log in</a>
+                <a class="primary" href="#">Sign up</a>
+            </nav>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search the gallery" />
+        </div>
+    </header>
+
+
+    <main class="container">
+        <div class="gallery row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/pencil.jpg" class="card-img-top" alt="Creative Sketching Session">
+                    <div class="card-body">
+                        <h5 class="card-title">Creative Sketching Session</h5>
+                        <p class="card-text">Artistic Creator</p>
+                        <div class="d-flex justify-content-between">
+                            <div class="likes">39 likes</div>
+                            <div class="views">874 views</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/domenico.jpg" class="card-img-top" alt="Digital Innovation Workshop">
+                    <div class="card-body">
+                        <h5 class="card-title">Digital Innovation Workshop</h5>
+                        <p class="card-text">Tech Innovator</p>
+                        <div class="d-flex justify-content-between">
+                            <div class="likes">82 likes</div>
+                            <div class="views">6023 views</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/neven.jpg" class="card-img-top" alt="Expressive Artwork">
+                    <div class="card-body">
+                        <h5 class="card-title">Expressive Artwork</h5>
+                        <p class="card-text">Creative Mind</p>
+                        <div class="d-flex justify-content-between">
+                            <div class="likes">120 likes</div>
+                            <div class="views">10,321 views</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/ux-indonesia.jpg" class="card-img-top" alt="UX Design Showcase">
+                    <div class="card-body">
+                        <h5 class="card-title">UX Design Showcase</h5>
+                        <p class="card-text">Design Enthusiast</p>
+                        <div class="d-flex justify-content-between">
+                            <div class="likes">45 likes</div>
+                            <div class="views">932 views</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/ux-store.jpg" class="card-img-top" alt="Modern Storefront Design">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern Storefront Design</h5>
+                        <p class="card-text">E-commerce Expert</p>
+                        <div class="d-flex justify-content-between">
+                            <div class="likes">200 likes</div>
+                            <div class="views">15,482 views</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/john-jennings.jpg" class="card-img-top" alt="Abstract Background Art">
+                    <div class="card-body">
+                        <h5 class="card-title">Abstract Background Art</h5>
+                        <p class="card-text">John Jennings</p>
+                        <div class="d-flex justify-content-between">
+                            <div class="likes">355 likes</div>
+                            <div class="views">10,040 views</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+    
+    <div id="image-modal" class="modal hidden">
+        <div class="modal-body">
+            <div class="modal-content">
+                <button class="close-button btn btn-light">
+                    X Close
+                </button>
+                <img id="modal-image" src="images/pencil_full.jpg" class="img-fluid" />
+            </div>
+        </div>
+        <div class="modal-overlay"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js" integrity="sha384-Rn5389XdAAsd0xoyYofzU6YqJ1bATNNkgNtXZmeNOrCz9g6SxmO5Tg7LEKqRKI5e" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyEWU4AIYIhPakY7veFbsf5gHTvS9U7Fwe" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
